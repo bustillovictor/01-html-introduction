@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*, *::before, *:after {
   box-sizing: inherit;
 }
 
@@ -28,7 +28,7 @@ img {
 
 .hero__container, .section__container {
   width: 100%;
-  max-width: 65rem
+  max-width: 65rem;
 
   margin: auto;
 }
@@ -49,7 +49,7 @@ img {
 .hero__fill {
   flex-grow: 1;
 
-  display: flex
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
@@ -67,7 +67,7 @@ img {
 
 .nav-group {
   font-size: 1.2rem;
-  margin 1rem 0;
+  margin: 1rem 0;
 }
 
 .nav-group a {
@@ -90,14 +90,21 @@ ul.nav-group {
   opacity: 1;
 }
 
-.btn { display: inline-block;border: currentColor 1px solid;line-height: 1em;border-radius: 2em padding: 0.5em;color: inherit;text-decoration: none }
+.btn {
+  display: inline-block;
+  border: currentColor 1px solid;
+  line-height: 1em;
+  border-radius: 2em padding: 0.5em;
+  color: inherit;
+  text-decoration: none;
+}
 
 .hero .btn {
   margin-top: 1rem;
 }
 
 .section {
-  background: #fafafa;
+  background: #e61010;
   padding: 2rem 1rem;
 
   color: #333;
@@ -159,7 +166,7 @@ ul.nav-group {
 .section--photo {
   padding: 6em 1rem;
   background: url('../lights.jpeg') no-repeat center center fixed;
-  background-size cover;
+  background-size cover:
 
   color: #ecf0f1;
   text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.7);
@@ -230,6 +237,6 @@ ul.nav-group {
 
   .student-fact__icon {
   display: block;
-  text-aligncenter;
+  text-aligncenter:
   margin-bottom: 1rem;
 }
