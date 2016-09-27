@@ -151,7 +151,7 @@ ul.nav-group {
   min-width: 14rem;
 }
 
-  .row__column-1-2 {
+.row__column-1-2 {
   width: calc(100% * 1 / 2 - 2rem);
 }
 
@@ -160,12 +160,12 @@ ul.nav-group {
 }
 
 .row__column-2-3 {
-  width: calc(100% * 2 / 3 - 2rem;
+  width: calc(100% * 2 / 3 - 2rem);
 }
 
  .section--photo {
   padding: 6em 1rem;
-  background: url("../lights.jpeg") no-repeat center center fixed;
+  background: url("../images/lights.jpeg") no-repeat center center fixed;
   background-size: cover;
 
   color: #ecf0f1;
