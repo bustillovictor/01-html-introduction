@@ -103,7 +103,7 @@ ul.nav-group {
   color: #333;
 }
 
-section--info {
+ .section--info {
   background: #2196f3;
   color: #ecf0f1;
 }
@@ -125,26 +125,26 @@ section--info {
   font-size: 1.6rem;
 }
 
-.divider {
+  .divider {
   width 20rem;
   margin: 2rem auto;
 }
 
-.row {
+  .row {
   display: flex;
   flex-wrap: wrap;
 
   margin: -1rem;
 }
 
-.row__column {
+  .row__column {
   margin: 1rem;
   flex-grow: 1
 
   min-width: 14rem;
 }
 
-.row__column-1-2 {
+  .row__column-1-2 {
   width: calc(100% * 1 / 2 - 2rem);
 }
 
@@ -179,13 +179,13 @@ section--info {
   -webkit-filter: contrast(.9) sepia(.2);
 }
 
-.polaroid::before {
+  .polaroid::before {
   content: "";
   display: block;
   padding-top: calc(100% * 9 / 16);
 }
 
-.polaroid img {
+  .polaroid img {
   position: absolute;
   top: 0;
   width: 0;
@@ -195,11 +195,11 @@ section--info {
   object-fit: cover;
 }
 
-.section--more {
+  .section--more {
   background: linear-gradient(#fdcc52,#fdc539);
 }
 
-.polaroid::after {
+  .polaroid::after {
   content: '';
   position: absolute;
   display: block;
@@ -213,7 +213,7 @@ section--info {
   mix-blend-mode: overlay;
 }
 
-.student-fact .card {
+  .student-fact .card {
   margin: 0;
   padding: 1rem;
   overflow: hidden;
@@ -228,7 +228,7 @@ section--info {
   padding-bottom: 3rem;
 }
 
-.student-fact__icon {
+  .student-fact__icon {
   display: block;
   text-aligncenter;
   margin-bottom: 1rem;
