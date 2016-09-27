@@ -165,7 +165,7 @@ ul.nav-group {
 
  .section--photo {
   padding: 6em 1rem;
-  background: url('../lights.jpeg') no-repeat center center fixed;
+  background: url("../lights.jpeg") no-repeat center center fixed;
   background-size: cover;
 
   color: #ecf0f1;
